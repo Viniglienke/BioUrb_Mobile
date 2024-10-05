@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="130dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="332dp"
+        android:layout_height="363dp"
+        android:contentDescription="@string/logo_desc"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnCadastrarArvore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_arvore"
+    android:layout_marginTop="16dp"
+    android:textColor="@color/white"
+    android:backgroundTint="#65B307"/>
+
+    <Button
+        android:id="@+id/btnArvoresCadastradas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/arvores_cadastradas"
+    android:layout_marginTop="16dp"
+    android:textColor="@color/white"
+    android:backgroundTint="#65B307"/>
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text"
+    android:layout_gravity="center"
+    android:layout_marginTop="32dp"
+    android:textSize="12sp" />
+</LinearLayout>

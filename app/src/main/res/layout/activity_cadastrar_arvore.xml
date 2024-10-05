@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNomeCientifico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome_cientifico"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/etDataPlantio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_data_plantio"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:autofillHints="date" />
+
+    <EditText
+        android:id="@+id/etEstadoSaude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_estado_saude"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:autofillHints="health" />
+
+    <EditText
+        android:id="@+id/etLocalizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_localizacao"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:autofillHints="location" />
+
+    <Button
+        android:id="@+id/btnCadastrarArvore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cadastrar_arvore"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#008000"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_voltar"
+        android:textColor="@color/white"
+        android:backgroundTint="#a9a9a9"/>
+</LinearLayout>

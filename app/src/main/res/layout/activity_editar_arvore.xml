@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNomeCientifico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome_cientifico"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/etDataPlantio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_data_plantio"
+        android:inputType="date"
+        android:maxLength="10"
+        android:digits="0123456789/"
+        android:autofillHints="date" />
+
+    <EditText
+        android:id="@+id/etEstadoSaude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_estado_saude"
+        android:inputType="text"
+        android:autofillHints="healthStatus" />
+
+    <EditText
+        android:id="@+id/etLocalizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_localizacao"
+        android:inputType="text"
+        android:autofillHints="address" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_salvar"
+        android:textColor="@color/white"
+        android:backgroundTint="#008000"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_voltar"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="end"
+        android:textColor="@color/white"
+        android:backgroundTint="#a9a9a9"/>
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_excluir"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#FF0000" />
+
+</LinearLayout>

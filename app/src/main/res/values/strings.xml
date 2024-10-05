@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BioUrb</string>
+    <string name="hint_nome_cientifico">Nome Científico</string>
+    <string name="hint_data_plantio">Data de Plantio</string>
+    <string name="hint_estado_saude">Estado de Saúde</string>
+    <string name="hint_localizacao">Localização</string>
+    <string name="btn_cadastrar_arvore">Cadastrar árvore</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_excluir">Excluir Árvore</string>
+    <string name="data_plantio">Data de Plantio: %1$s</string>
+    <string name="estado_saude">Estado de Saúde: %1$s</string>
+    <string name="localizacao">Localização: %1$s</string>
+    <string name="cadastrar_arvore">Cadastrar árvore</string>
+    <string name="arvores_cadastradas">Árvores cadastradas</string>
+    <string name="footer_text">© Copyright 2024 BioUrb - Todos os direitos reservados.</string>
+    <string name="logo_desc">Logo do BioUrb</string>
+</resources>
